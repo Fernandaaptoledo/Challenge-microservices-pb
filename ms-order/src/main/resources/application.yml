@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/msconnectTimeoutMS=10000
+      username: root
+      password: root
