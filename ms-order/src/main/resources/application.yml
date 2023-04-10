@@ -1,6 +1,11 @@
-spring:
-  data:
-    mongodb:
-      uri: mongodb://localhost:27017/msconnectTimeoutMS=10000
-      username: root
-      password: root
+#postgresql
+spring.jpa:
+  database: POSTGRESQL
+  hibernate.ddl-auto: create-drop
+  show-sql: true
+
+spring.datasource:
+  driverClassName: org.postgresql.Driver
+  url: jdbc:postgresql://localhost:5432/mydb2
+  username: root
+  password: root
